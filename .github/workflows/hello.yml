@@ -1,5 +1,8 @@
 name: My First Workflow
-on: [push, pull_request]
+on: 
+  push:
+  schedule:
+    - cron: '*/15 * * * *' 
 jobs:
   say-hello:  #job name
     runs-on: ubuntu-latest  #os on which job will run

@@ -71,3 +71,5 @@ jobs:
           node-version: '14'
       - name: list files
         run: ls
+      - name: check node version
+        run: node -v  

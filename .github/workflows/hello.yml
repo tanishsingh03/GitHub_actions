@@ -2,7 +2,7 @@ name: My First Workflow
 on: 
   push:
   schedule:
-    - cron: '*/15 * * * *' 
+    - cron: '* /15 * * * *' 
 jobs:
   say-hello:  #job name
     runs-on: ubuntu-latest  #os on which job will run
@@ -17,3 +17,7 @@ jobs:
     steps:
       - name: print message
         run: echo "Good bye from second job"
+
+
+
+        #by default, jobs run in parallel 

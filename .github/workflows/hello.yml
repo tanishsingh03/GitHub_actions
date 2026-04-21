@@ -91,7 +91,7 @@ jobs:
         with:
           node-version: '18'   
       - name: Download dependancy
-        run: npm i   
+        run: npm install   
       - name: run test
         run: npm test  
 

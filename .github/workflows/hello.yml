@@ -93,7 +93,7 @@ jobs:
       - name: Download dependancy
         run: npm i   
       - name: run test
-        run: npm run test  
+        run: npm test  
 
 
 

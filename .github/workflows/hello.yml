@@ -82,9 +82,6 @@ name: using_action
 
 on: 
   pull_request:
-  push:
-    branches:
-      - main
 
 jobs:
 
